@@ -57,10 +57,11 @@ The main workflow is as follows:
 ├── 3D_objects/
 │   └── trex.glb            # Example 3D model
 ├── demo/                   # Demo videos
-│   ├── external_pov.mp4
-│   └── pov.mp4
+│   ├── external_pov.gif
+│   └── pov.gif
 ├── images/                 # Concept image
 │   └── idea.jpg
+├── .gitattributes
 ├── .gitignore
 ├── config.py               # Configuration file
 ├── eyes_tracking.py        # Eye tracking module
