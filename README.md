@@ -10,12 +10,19 @@ The main idea is to create a "holographic" experience where a 3D object is rende
 
 ## Demos
 
-Here are two videos demonstrating the application in action.
+Here are two GIFs demonstrating the application in action.
 
-|                                            Point of View                                            |                                                               External View                                                                |
-| :-------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-|                                   [Watch POV Demo](demo/pov.mp4)                                    |                                             [Watch External View Demo](demo/external_pov.mp4)                                              |
-| A screen recording of the user's point of view, showing the camera feed and the 3D object reacting. | A recording from an external POV, showing how any other person would see the screen when another user is interacting with the application. |
+### Point of View
+
+A screen recording of the user's point of view, showing the camera feed and the 3D object reacting.
+
+![Point of View Demo](demo/pov.gif)
+
+### External View
+
+A recording from an external POV, showing how any other person would see the screen when another user is interacting with the application.
+
+![External Point of View Demo](demo/external_pov.gif)
 
 ## Features
 
