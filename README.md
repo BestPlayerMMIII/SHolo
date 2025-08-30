@@ -66,8 +66,8 @@ The main workflow is as follows:
 1.  **Clone the repository.** For a full clone, use:
 
     ```bash
-    git clone https://github.com/tuo-utente/tuo-repo.git
-    cd tuo-repo
+    git clone https://github.com/BestPlayerMMIII/SHolo.git
+    cd SHolo
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -92,8 +92,8 @@ If you only need the source code and want to save disk space, you can clone the 
 1.  **Clone the repository without checking out any files:**
 
     ```bash
-    git clone --filter=blob:none --no-checkout https://github.com/tuo-utente/tuo-repo.git
-    cd tuo-repo
+    git clone --filter=blob:none --no-checkout https://github.com/BestPlayerMMIII/SHolo.git
+    cd SHolo
     ```
 
 2.  **Configure sparse checkout to exclude the asset directories:**
@@ -103,9 +103,9 @@ If you only need the source code and want to save disk space, you can clone the 
     ```
 
 3.  **Check out the files based on these rules:**
-    `bash
-git checkout main
-`
+    ```bash
+    git checkout main
+    ```
     **Note:** You will need to find or create your own 3D models to run the application if you use this method.
 
 ## Usage
