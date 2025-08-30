@@ -124,3 +124,17 @@ Two windows will open:
 Interact with the application by showing your hand or face to the camera as described in the features above.
 
 To close the application, simply press [Q].
+
+## Conclusions
+
+SHolo is a foundational project with high ambitions.
+While it currently demonstrates basic 3D object rotation through hand and eye tracking, its potential extends far beyond this initial implementation.
+With further calibration, additional control modes, and enhanced gesture recognition, SHolo could be used as:
+
+- A **virtual control interface** for 3D modelers, allowing intuitive manipulation of digital assets in real-time.
+- An **immersive gaming tool**, where players can interact with in-game objects or environments using natural hand and eye movements.
+- A **virtual presentation**, enabling dynamic visualization of complex 3D concepts.
+- A **creative tool for digital artists**, supporting gesture-driven sculpting, animation, or visualization.
+
+This project lays the groundwork for a new kind of human-computer interaction, bridging physical gestures with virtual objects.
+The ambition is to make interaction with 3D content as seamless and natural as interacting with real-world objects.
