@@ -14,7 +14,7 @@ Here are two GIFs demonstrating the application in action.
 
 ### Point of View
 
-A screen recording of the user's point of view, showing the camera feed and the 3D object reacting.
+A recording of the user's point of view, showing the 3D object reacting.
 
 ![Point of View Demo](demo/pov.gif)
 
