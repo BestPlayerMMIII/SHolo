@@ -8,13 +8,11 @@ The main idea is to create a "holographic" experience where a 3D object is rende
 
 ![Project Concept Image](images/idea.jpg)
 
-## Demos
+## Demo
 
 Here is a demo video of the application in action. Click on the image to watch it on YouTube.
 
 [![Watch the demo](images/cover.png)](https://www.youtube.com/watch?v=os5lIOyb2i0)
-
-> A recording showing the application in action.
 
 ## Features
 
@@ -48,11 +46,9 @@ The main workflow is as follows:
 .
 ├── 3D_objects/
 │   └── trex.glb            # Example 3D model
-├── demo/                   # Demo videos
-│   ├── external_pov.gif
-│   └── pov.gif
-├── images/                 # Concept image
-│   └── idea.jpg
+├── images/
+│   └── cover.png           # Cool video cover
+│   └── idea.jpg            # Concept image
 ├── .gitattributes
 ├── .gitignore
 ├── config.py               # Configuration file
