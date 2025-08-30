@@ -10,23 +10,11 @@ The main idea is to create a "holographic" experience where a 3D object is rende
 
 ## Demos
 
-Here are two GIFs demonstrating the application in action.
+Here is a demo video of the application in action. Click on the image to watch it on YouTube.
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <h3>Point of View</h3>
-      <img src="demo/pov.gif" alt="Watch POV Demo"><br>
-      <p>A recording of the user's point of view, showing the 3D object reacting.</p>
-    </td>
-    <td align="center" width="50%">
-      <h3>External Point of View</h3>
-      <img src="demo/external_pov.gif" alt="Watch External View Demo"><br>
-      <p>A recording from an external POV, showing how any other person would see the screen when another user is interacting with the application.</p>
-    </td>
-  </tr>
-</table>
+[![Watch the demo](images/cover.png)](https://www.youtube.com/watch?v=os5lIOyb2i0)
 
+> A recording showing the application in action.
 
 ## Features
 
@@ -79,7 +67,12 @@ The main workflow is as follows:
 
 ## Installation
 
-1.  **Clone the repository (or download the files into a directory).**
+1.  **Clone the repository.** For a full clone, use:
+
+    ```bash
+    git clone https://github.com/tuo-utente/tuo-repo.git
+    cd tuo-repo
+    ```
 
 2.  **Create a virtual environment (recommended):**
 
@@ -95,6 +88,29 @@ The main workflow is as follows:
     ```bash
     pip install -r requirements.txt
     ```
+
+### Cloning without Assets (Sparse Checkout)
+
+If you only need the source code and want to save disk space, you can clone the repository without the `images` and `3D_objects` directories using Git's sparse checkout feature.
+
+1.  **Clone the repository without checking out any files:**
+
+    ```bash
+    git clone --filter=blob:none --no-checkout https://github.com/tuo-utente/tuo-repo.git
+    cd tuo-repo
+    ```
+
+2.  **Configure sparse checkout to exclude the asset directories:**
+
+    ```bash
+    git sparse-checkout set "/*" "!/images/" "!/3D_objects/"
+    ```
+
+3.  **Check out the files based on these rules:**
+    `bash
+git checkout main
+`
+    **Note:** You will need to find or create your own 3D models to run the application if you use this method.
 
 ## Usage
 
